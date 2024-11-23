@@ -2,7 +2,7 @@
 
 ## Project Task
 The goal of this project is to fine-tune a pre-trained language model to summarize lengthy news articles into concise summaries. The project focuses on delivering high-quality summaries for a multitude of topics.
-
+Link to trained model: https://huggingface.co/natanea/llm-summarization-project
 ## Dataset
 I used the Multi-News dataset, which contains multi-document news summaries. Each sample includes a collection of related articles and a corresponding human-written summary. The dataset was preprocessed to truncate inputs and ensure compatibility with the token length limitations of our chosen model.
 
