@@ -24,5 +24,19 @@ Key Results:
 - Max Token Length: Limited input to 1024 tokens and output to 128 tokens for compatibility with hardware constraints and model design.
 
 ## Future Changes
+1. **Increase Training Resources**  
+   Limited access to computational resources on Colab restricted the ability to train and test the model effectively. Future work would involve:  
+   - Using more powerful hardware to handle larger datasets and longer training periods.
 
+2. **Train for More Epochs**  
+   The current training was limited to 1 epoch due to computational constraints. Increasing the number of epochs while monitoring for overfitting would likely improve the model’s performance.
+
+3. **Implement Early Stopping**  
+   Adding a stop-loss hyperparameter would enable the training process to halt automatically when validation loss plateaus, optimizing both time and resources.
+
+4. **Enhance Generalization**  
+   The model struggles to generalize well on unseen data. This could be addressed by:  
+   - **Augmenting the dataset** with more diverse and balanced samples.  
+   - **Data Filtering** to remove noisy or irrelevant training samples.  
+   - Applying **regularization techniques**, such as dropout or weight decay, during training.
 
